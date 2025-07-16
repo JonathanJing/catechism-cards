@@ -1,0 +1,52 @@
+{
+  "supported_languages": [
+    {
+      "code": "zh-CN",
+      "name": "中文 (简体)",
+      "english_name": "Chinese (Simplified)",
+      "data_file": "data/westminster_catechism_cn.json",
+      "readme": "README.md",
+      "examples": "examples/usage_examples.md",
+      "default": true
+    },
+    {
+      "code": "en-US", 
+      "name": "English",
+      "english_name": "English",
+      "data_file": "data/westminster_catechism_en.json",
+      "readme": "README_EN.md",
+      "examples": "examples/usage_examples_en.md",
+      "default": false
+    }
+  ],
+  "file_naming_convention": {
+    "data_files": {
+      "pattern": "westminster_catechism_{language_code}.json",
+      "description": "Main catechism data files / 主要要理问答数据文件"
+    },
+    "readme_files": {
+      "pattern": "README_{language_code}.md",
+      "description": "Project documentation / 项目文档",
+      "note": "Default language (zh-CN) uses README.md / 默认语言(zh-CN)使用README.md"
+    },
+    "example_files": {
+      "pattern": "usage_examples_{language_code}.md", 
+      "description": "Usage examples and tutorials / 使用示例和教程"
+    }
+  },
+  "export_commands": {
+    "chinese": {
+      "npm_script": "npm run export:anki:cn",
+      "python_command": "python scripts/anki_exporter.py --data=data/westminster_catechism_cn.json --output=output/cn/"
+    },
+    "english": {
+      "npm_script": "npm run export:anki:en", 
+      "python_command": "python scripts/anki_exporter.py --data=data/westminster_catechism_en.json --output=output/en/"
+    }
+  },
+  "localization_notes": {
+    "code_comments": "All Python scripts include bilingual comments (English/Chinese) / 所有Python脚本都包含双语注释（英文/中文）",
+    "error_messages": "Error messages displayed in both languages / 错误信息以双语显示",
+    "documentation": "Complete documentation available in both languages / 完整文档提供双语版本"
+  }
+} 

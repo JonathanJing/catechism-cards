@@ -1,0 +1,273 @@
+{
+  "title": "Westminster Shorter Catechism",
+  "version": "1.0",
+  "language": "en-US",
+  "description": "The Westminster Shorter Catechism is an important doctrinal document in the Reformed tradition, containing 107 questions and answers",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the chief end of man?",
+      "answer": "Man's chief end is to glorify God, and to enjoy him forever.",
+      "scripture_references": [
+        {
+          "reference": "1 Corinthians 10:31",
+          "text": "Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God."
+        },
+        {
+          "reference": "Psalm 73:25-26",
+          "text": "Whom have I in heaven but thee? and there is none upon earth that I desire beside thee. My flesh and my heart faileth: but God is the strength of my heart, and my portion for ever."
+        }
+      ],
+      "theme": "Glory of God",
+      "difficulty": "basic",
+      "keywords": ["glorify God", "chief end", "enjoy God forever"],
+      "notes": "This is the foundational question of the entire catechism, establishing the fundamental purpose of human life."
+    },
+    {
+      "id": 2,
+      "question": "What rule hath God given to direct us how we may glorify and enjoy him?",
+      "answer": "The Word of God, which is contained in the Scriptures of the Old and New Testaments, is the only rule to direct us how we may glorify and enjoy him.",
+      "scripture_references": [
+        {
+          "reference": "2 Timothy 3:16-17",
+          "text": "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, thoroughly furnished unto all good works."
+        },
+        {
+          "reference": "Ephesians 2:20",
+          "text": "And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone."
+        }
+      ],
+      "theme": "Scripture Authority",
+      "difficulty": "basic",
+      "keywords": ["Word of God", "Scripture", "Old Testament", "New Testament", "rule"],
+      "notes": "Emphasizes Scripture as the sole authority for Christian faith and practice."
+    },
+    {
+      "id": 3,
+      "question": "What do the Scriptures principally teach?",
+      "answer": "The Scriptures principally teach what man is to believe concerning God, and what duty God requires of man.",
+      "scripture_references": [
+        {
+          "reference": "2 Timothy 1:13",
+          "text": "Hold fast the form of sound words, which thou hast heard of me, in faith and love which is in Christ Jesus."
+        },
+        {
+          "reference": "Ecclesiastes 12:13",
+          "text": "Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man."
+        }
+      ],
+      "theme": "Scripture Content",
+      "difficulty": "basic",
+      "keywords": ["believe", "duty", "teach"],
+      "notes": "Scripture's content can be summarized as belief and practice."
+    },
+    {
+      "id": 4,
+      "question": "What is God?",
+      "answer": "God is a Spirit, infinite, eternal, and unchangeable, in his being, wisdom, power, holiness, justice, goodness, and truth.",
+      "scripture_references": [
+        {
+          "reference": "John 4:24",
+          "text": "God is a Spirit: and they that worship him must worship him in spirit and in truth."
+        },
+        {
+          "reference": "Exodus 3:14",
+          "text": "And God said unto Moses, I AM THAT I AM: and he said, Thus shalt thou say unto the children of Israel, I AM hath sent me unto you."
+        },
+        {
+          "reference": "James 1:17",
+          "text": "Every good gift and every perfect gift is from above, and cometh down from the Father of lights, with whom is no variableness, neither shadow of turning."
+        }
+      ],
+      "theme": "Attributes of God",
+      "difficulty": "intermediate",
+      "keywords": ["Spirit", "infinite", "eternal", "unchangeable", "wisdom", "power", "holiness", "justice", "goodness", "truth"],
+      "notes": "Classic definition of God's essence, covering both his being and attributes."
+    },
+    {
+      "id": 5,
+      "question": "Are there more Gods than one?",
+      "answer": "There is but one only, the living and true God.",
+      "scripture_references": [
+        {
+          "reference": "Deuteronomy 6:4",
+          "text": "Hear, O Israel: The LORD our God is one LORD."
+        },
+        {
+          "reference": "Jeremiah 10:10",
+          "text": "But the LORD is the true God, he is the living God, and an everlasting king: at his wrath the earth shall tremble, and the nations shall not be able to abide his indignation."
+        }
+      ],
+      "theme": "Unity of God",
+      "difficulty": "basic",
+      "keywords": ["one God", "living", "true God"],
+      "notes": "Emphasizes monotheism, opposing polytheism and idolatry."
+    },
+    {
+      "id": 6,
+      "question": "How many persons are there in the Godhead?",
+      "answer": "There are three persons in the Godhead: the Father, the Son, and the Holy Ghost; and these three are one God, the same in substance, equal in power and glory.",
+      "scripture_references": [
+        {
+          "reference": "Matthew 28:19",
+          "text": "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost."
+        },
+        {
+          "reference": "1 John 5:7",
+          "text": "For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost: and these three are one."
+        },
+        {
+          "reference": "2 Corinthians 13:14",
+          "text": "The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Ghost, be with you all. Amen."
+        }
+      ],
+      "theme": "Trinity",
+      "difficulty": "intermediate",
+      "keywords": ["three persons", "Father", "Son", "Holy Ghost", "one God", "same substance"],
+      "notes": "The Trinity is one of the core doctrines of Christian faith."
+    },
+    {
+      "id": 7,
+      "question": "What are the decrees of God?",
+      "answer": "The decrees of God are his eternal purpose, according to the counsel of his will, whereby, for his own glory, he hath foreordained whatsoever comes to pass.",
+      "scripture_references": [
+        {
+          "reference": "Ephesians 1:4-5",
+          "text": "According as he hath chosen us in him before the foundation of the world, that we should be holy and without blame before him in love: Having predestinated us unto the adoption of children by Jesus Christ to himself, according to the good pleasure of his will."
+        },
+        {
+          "reference": "Ephesians 1:11",
+          "text": "In whom also we have obtained an inheritance, being predestinated according to the purpose of him who worketh all things after the counsel of his own will."
+        }
+      ],
+      "theme": "Divine Predestination",
+      "difficulty": "advanced",
+      "keywords": ["decrees", "eternal purpose", "foreordained", "glory of God"],
+      "notes": "Relates to the important Reformed doctrine of predestination."
+    },
+    {
+      "id": 8,
+      "question": "How doth God execute his decrees?",
+      "answer": "God executeth his decrees in the works of creation and providence.",
+      "scripture_references": [
+        {
+          "reference": "Revelation 4:11",
+          "text": "Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created."
+        },
+        {
+          "reference": "Daniel 4:35",
+          "text": "And all the inhabitants of the earth are reputed as nothing: and he doeth according to his will in the army of heaven, and among the inhabitants of the earth: and none can stay his hand, or say unto him, What doest thou?"
+        }
+      ],
+      "theme": "Works of God",
+      "difficulty": "intermediate",
+      "keywords": ["execute", "creation", "providence"],
+      "notes": "God accomplishes his eternal plan through creation and providence."
+    },
+    {
+      "id": 9,
+      "question": "What is the work of creation?",
+      "answer": "The work of creation is God's making all things of nothing, by the word of his power, in the space of six days, and all very good.",
+      "scripture_references": [
+        {
+          "reference": "Genesis 1:1",
+          "text": "In the beginning God created the heaven and the earth."
+        },
+        {
+          "reference": "Genesis 1:31",
+          "text": "And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day."
+        },
+        {
+          "reference": "Hebrews 11:3",
+          "text": "Through faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear."
+        }
+      ],
+      "theme": "Creation",
+      "difficulty": "basic",
+      "keywords": ["word of power", "six days", "nothing", "all things", "very good"],
+      "notes": "Describes the process and characteristics of God's creation of the world."
+    },
+    {
+      "id": 10,
+      "question": "How did God create man?",
+      "answer": "God created man male and female, after his own image, in knowledge, righteousness, and holiness, with dominion over the creatures.",
+      "scripture_references": [
+        {
+          "reference": "Genesis 1:27",
+          "text": "So God created man in his own image, in the image of God created he him; male and female created he them."
+        },
+        {
+          "reference": "Genesis 2:7",
+          "text": "And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul."
+        },
+        {
+          "reference": "Ecclesiastes 7:29",
+          "text": "Lo, this only have I found, that God hath made man upright; but they have sought out many inventions."
+        },
+        {
+          "reference": "Genesis 1:28",
+          "text": "And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth."
+        }
+      ],
+      "theme": "Creation of Man",
+      "difficulty": "intermediate",
+      "keywords": ["God's image", "male and female", "knowledge", "righteousness", "holiness", "dominion"],
+      "notes": "Explains the original state and special position of humanity at creation."
+    }
+  ],
+  "themes": [
+    {
+      "name": "Glory of God",
+      "description": "Questions about glorifying God and the purpose of life",
+      "questions": [1],
+      "color": "#FFD700"
+    },
+    {
+      "name": "Scripture Authority",
+      "description": "Questions about Scripture as God's Word and rule for life",
+      "questions": [2, 3],
+      "color": "#4169E1"
+    },
+    {
+      "name": "Attributes of God",
+      "description": "Questions about God's nature, attributes, and unity",
+      "questions": [4, 5],
+      "color": "#DC143C"
+    },
+    {
+      "name": "Trinity",
+      "description": "Questions about the three persons in the Godhead",
+      "questions": [6],
+      "color": "#32CD32"
+    },
+    {
+      "name": "Divine Predestination",
+      "description": "Questions about God's decrees and eternal purpose",
+      "questions": [7, 8],
+      "color": "#8A2BE2"
+    },
+    {
+      "name": "Creation",
+      "description": "Questions about God's work of creation",
+      "questions": [9, 10],
+      "color": "#FF8C00"
+    }
+  ],
+  "difficulty_levels": {
+    "basic": {
+      "name": "Basic",
+      "description": "Suitable for beginners, simple and easy to understand concepts",
+      "color": "#90EE90"
+    },
+    "intermediate": {
+      "name": "Intermediate",
+      "description": "Requires some theological foundation, more complex concepts",
+      "color": "#FFE4B5"
+    },
+    "advanced": {
+      "name": "Advanced",
+      "description": "Requires deep theological understanding, abstract concepts",
+      "color": "#FFB6C1"
+    }
+  }
+} 
