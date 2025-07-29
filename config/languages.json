@@ -5,18 +5,18 @@
       "name": "中文 (简体)",
       "english_name": "Chinese (Simplified)",
       "data_file": "data/westminster_catechism_cn.json",
-      "readme": "README.md",
+      "readme": "README_CN.md",
       "examples": "examples/usage_examples.md",
-      "default": true
+      "default": false
     },
     {
       "code": "en-US", 
       "name": "English",
       "english_name": "English",
       "data_file": "data/westminster_catechism_en.json",
-      "readme": "README_EN.md",
+      "readme": "README.md",
       "examples": "examples/usage_examples_en.md",
-      "default": false
+      "default": true
     }
   ],
   "file_naming_convention": {

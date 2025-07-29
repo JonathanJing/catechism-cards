@@ -239,6 +239,47 @@ python scripts/anki_exporter.py --type=cloze --difficulty=basic --output=output/
 3. **生活应用**：思考如何在日常生活中应用
 4. **小组讨论**：与同龄人一起讨论和分享
 
+## 🛠️ 常见问题解决
+
+### Python依赖安装问题
+
+如果遇到依赖安装错误，请尝试以下解决方案：
+
+```bash
+# 更新pip和setuptools
+pip install --upgrade pip setuptools wheel
+
+# 分步安装核心依赖
+pip install numpy pandas
+pip install genanki
+pip install -r requirements.txt
+```
+
+### Python 3.12兼容性
+
+对于Python 3.12用户，如果遇到构建错误，可以使用兼容版本：
+
+```bash
+pip install --upgrade setuptools>=68.0.0
+pip install -r requirements.txt --no-cache-dir
+```
+
+### 常见错误排除
+
+1. **找不到数据文件**
+   ```bash
+   python scripts/anki_exporter.py --data=data/westminster_catechism_cn.json
+   ```
+
+2. **JSON格式错误**
+   - 检查JSON文件语法
+   - 使用在线JSON验证工具
+
+3. **权限问题**
+   ```bash
+   chmod +x scripts/anki_exporter.py
+   ```
+
 ## 🤝 贡献指南
 
 我们欢迎各种形式的贡献：
@@ -269,5 +310,5 @@ python scripts/anki_exporter.py --type=cloze --difficulty=basic --output=output/
 
 ## 多语言版本 / Multi-language Versions
 
-- [中文版 README](README.md)
-- [English README](README_EN.md) 
+- [中文版 README](README_CN.md)
+- [English README](README.md) 
